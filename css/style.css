@@ -2,11 +2,13 @@
     scroll-behavior: smooth;
 }
 
-/* body{
-    background-image: url('../img/bg1.jpg');
-    background-repeat: no-repeat;
-    width: 100%;
-} */
+body { 
+  background: url(../img/BACKGROUND.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .bungkus{
     position: relative;
@@ -43,6 +45,11 @@
 
 .container{
     animation: transitionIn 0.75s;
+}
+
+.item img {
+    height: 450px !important;
+    width: 850px !important;
 }
 
 @keyframes transitionIn{

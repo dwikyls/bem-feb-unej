@@ -52,6 +52,26 @@ body {
     width: 850px !important;
 }
 
+a {
+    text-decoration: none;
+}
+
+.parent {
+  position: relative;
+  background: red;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 2vw;
+}
+
+.child {
+  height: 4vw;
+  width: 4vw;
+  position: absolute;
+  top: 0.4vw;
+  left: 1vw;
+}
+
 @keyframes transitionIn{
     from{
         opacity: 0;

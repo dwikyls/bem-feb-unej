@@ -2,6 +2,6 @@ $.getJSON('https://www.googleapis.com/youtube/v3/search?key=AIzaSyC28h1S_kId35V6
   let video = result.items[0].id.videoId;
 
   $('#embvideo').append(`
-    <iframe width="345px" src="https://www.youtube.com/embed/${video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="349" src="https://www.youtube.com/embed/${video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   `)
 })
